@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    //handler
+    //asynctask
+    //coroutines
+    <Button
+        android:id="@+id/btn_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try Handler"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="64dp"
+        />
+    <Button
+        android:id="@+id/btn_asynctask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try Asynctask"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="64dp"
+        />
+    <Button
+        android:id="@+id/btn_coroutines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try Coroutines"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="64dp"
+        />
+
+
+
+</LinearLayout>
